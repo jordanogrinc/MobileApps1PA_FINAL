@@ -80,13 +80,13 @@
 				81B0C67A26EEBD93002D9D90 /* AppDelegate.swift */,
 				81B0C67C26EEBD93002D9D90 /* SceneDelegate.swift */,
 				81B0C67E26EEBD93002D9D90 /* ViewController.swift */,
+				81B0C69026EEC1D4002D9D90 /* AddViewController.swift */,
+				81B0C69226EEC1DB002D9D90 /* SecondViewController.swift */,
 				81B0C68026EEBD93002D9D90 /* Main.storyboard */,
 				81B0C68326EEBD96002D9D90 /* Assets.xcassets */,
 				81B0C68526EEBD96002D9D90 /* LaunchScreen.storyboard */,
 				81B0C68826EEBD96002D9D90 /* Info.plist */,
 				81B0C68E26EEBF33002D9D90 /* GoogleService-Info.plist */,
-				81B0C69026EEC1D4002D9D90 /* AddViewController.swift */,
-				81B0C69226EEC1DB002D9D90 /* SecondViewController.swift */,
 			);
 			path = MobileApps1PA_FINAL;
 			sourceTree = "<group>";
