@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MobileApps1PA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MobileApps1PA_FINAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,10 +65,10 @@
             </objects>
             <point key="canvasLocation" x="28.985507246376812" y="88.392857142857139"/>
         </scene>
-        <!--Add View Controller-->
+        <!--Add Page View Controller-->
         <scene sceneID="1ep-bU-FIH">
             <objects>
-                <viewController id="iZ1-gl-Olw" customClass="AddViewController" customModule="MobileApps1PA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="iZ1-gl-Olw" customClass="AddPageViewController" customModule="MobileApps1PA_FINAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="de6-OZ-zLS">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,10 +213,10 @@
             </objects>
             <point key="canvasLocation" x="17.39130434782609" y="789.50892857142856"/>
         </scene>
-        <!--Second View Controller-->
+        <!--Second Page View Controller-->
         <scene sceneID="cRE-4J-95q">
             <objects>
-                <viewController id="0Pu-0F-bMA" customClass="SecondViewController" customModule="MobileApps1PA" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="0Pu-0F-bMA" customClass="SecondPageViewController" customModule="MobileApps1PA_FINAL" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GIa-l6-hT4">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

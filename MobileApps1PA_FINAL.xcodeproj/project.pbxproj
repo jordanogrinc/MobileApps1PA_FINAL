@@ -16,6 +16,8 @@
 		81B0C68F26EEBF33002D9D90 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81B0C68E26EEBF33002D9D90 /* GoogleService-Info.plist */; };
 		81B0C69126EEC1D4002D9D90 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C69026EEC1D4002D9D90 /* AddViewController.swift */; };
 		81B0C69326EEC1DB002D9D90 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C69226EEC1DB002D9D90 /* SecondViewController.swift */; };
+		81B0C69926EEC8B6002D9D90 /* AddPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C69826EEC8B6002D9D90 /* AddPageViewController.swift */; };
+		81B0C69B26EEC9C5002D9D90 /* SecondPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0C69A26EEC9C5002D9D90 /* SecondPageViewController.swift */; };
 		CAB10134258912F18B73DFE7 /* Pods_MobileApps1PA_FINAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 729638E17CC064A653ECE064 /* Pods_MobileApps1PA_FINAL.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +36,8 @@
 		81B0C68E26EEBF33002D9D90 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81B0C69026EEC1D4002D9D90 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddViewController.swift; path = ../../MobileApps1PA/MobileApps1PA/AddViewController.swift; sourceTree = "<group>"; };
 		81B0C69226EEC1DB002D9D90 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../../MobileApps1PA/MobileApps1PA/SecondViewController.swift; sourceTree = "<group>"; };
+		81B0C69826EEC8B6002D9D90 /* AddPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPageViewController.swift; sourceTree = "<group>"; };
+		81B0C69A26EEC9C5002D9D90 /* SecondPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,9 @@
 				81B0C67C26EEBD93002D9D90 /* SceneDelegate.swift */,
 				81B0C67E26EEBD93002D9D90 /* ViewController.swift */,
 				81B0C69026EEC1D4002D9D90 /* AddViewController.swift */,
+				81B0C69A26EEC9C5002D9D90 /* SecondPageViewController.swift */,
 				81B0C69226EEC1DB002D9D90 /* SecondViewController.swift */,
+				81B0C69826EEC8B6002D9D90 /* AddPageViewController.swift */,
 				81B0C68026EEBD93002D9D90 /* Main.storyboard */,
 				81B0C68326EEBD96002D9D90 /* Assets.xcassets */,
 				81B0C68526EEBD96002D9D90 /* LaunchScreen.storyboard */,
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				81B0C67F26EEBD93002D9D90 /* ViewController.swift in Sources */,
+				81B0C69926EEC8B6002D9D90 /* AddPageViewController.swift in Sources */,
 				81B0C67B26EEBD93002D9D90 /* AppDelegate.swift in Sources */,
 				81B0C69126EEC1D4002D9D90 /* AddViewController.swift in Sources */,
+				81B0C69B26EEC9C5002D9D90 /* SecondPageViewController.swift in Sources */,
 				81B0C69326EEC1DB002D9D90 /* SecondViewController.swift in Sources */,
 				81B0C67D26EEBD93002D9D90 /* SceneDelegate.swift in Sources */,
 			);
