@@ -168,6 +168,13 @@
                                     <action selector="AddBtn:" destination="iZ1-gl-Olw" eventType="touchUpInside" id="rtV-in-9RI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pz8-6u-aKK">
+                                <rect key="frame" x="20" y="28" width="30" height="30"/>
+                                <state key="normal" title="&lt;"/>
+                                <connections>
+                                    <action selector="close:" destination="iZ1-gl-Olw" eventType="touchUpInside" id="OVi-s4-fbI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DiT-Tw-0HT"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -180,8 +187,10 @@
                             <constraint firstItem="PUb-FA-3l5" firstAttribute="centerX" secondItem="de6-OZ-zLS" secondAttribute="centerX" id="FCN-rk-coh"/>
                             <constraint firstItem="7FK-Lu-LGr" firstAttribute="top" secondItem="k7w-1c-ftu" secondAttribute="bottom" constant="26" id="HLK-Ra-KTC"/>
                             <constraint firstItem="VMq-uy-eXo" firstAttribute="centerX" secondItem="de6-OZ-zLS" secondAttribute="centerX" id="Jaz-Iy-QKw"/>
+                            <constraint firstItem="Pz8-6u-aKK" firstAttribute="leading" secondItem="DiT-Tw-0HT" secondAttribute="leading" constant="20" id="KK1-d6-rt4"/>
                             <constraint firstItem="NRl-85-pfv" firstAttribute="top" secondItem="WfP-UV-oeE" secondAttribute="bottom" constant="154.5" id="UfR-PE-45E"/>
                             <constraint firstItem="c8r-Ji-JM1" firstAttribute="centerX" secondItem="de6-OZ-zLS" secondAttribute="centerX" id="Vdx-90-Ryt"/>
+                            <constraint firstItem="Pz8-6u-aKK" firstAttribute="top" secondItem="DiT-Tw-0HT" secondAttribute="top" constant="28" id="WcF-7E-PEo"/>
                             <constraint firstItem="UG2-fe-f2b" firstAttribute="centerY" secondItem="de6-OZ-zLS" secondAttribute="centerY" id="X55-AD-ucd"/>
                             <constraint firstItem="87f-9b-dNI" firstAttribute="top" secondItem="7FK-Lu-LGr" secondAttribute="bottom" constant="28" id="Xmx-pq-S8K"/>
                             <constraint firstItem="c8r-Ji-JM1" firstAttribute="leading" secondItem="UG2-fe-f2b" secondAttribute="trailing" constant="10" id="ZMu-vy-Hon"/>
@@ -265,6 +274,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhL-K2-uK9">
+                                <rect key="frame" x="20" y="28" width="30" height="30"/>
+                                <state key="normal" title="&lt;"/>
+                                <connections>
+                                    <action selector="close:" destination="0Pu-0F-bMA" eventType="touchUpInside" id="PTa-kT-96d"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SWT-OS-IPA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -272,6 +288,7 @@
                             <constraint firstItem="E57-WE-O0q" firstAttribute="top" secondItem="d8Z-hZ-v1k" secondAttribute="bottom" constant="30" id="6NE-PO-bP5"/>
                             <constraint firstItem="QVf-nZ-sS5" firstAttribute="centerX" secondItem="GIa-l6-hT4" secondAttribute="centerX" id="6bN-X9-ln6"/>
                             <constraint firstItem="FMi-bk-m6i" firstAttribute="top" secondItem="4e9-Eb-DXY" secondAttribute="bottom" constant="30" id="9Xj-HY-qwh"/>
+                            <constraint firstItem="bhL-K2-uK9" firstAttribute="top" secondItem="SWT-OS-IPA" secondAttribute="top" constant="28" id="ATZ-Ed-4be"/>
                             <constraint firstItem="bWm-S2-HZz" firstAttribute="top" secondItem="E57-WE-O0q" secondAttribute="bottom" constant="30" id="DFb-ic-Gkq"/>
                             <constraint firstItem="bWm-S2-HZz" firstAttribute="centerX" secondItem="GIa-l6-hT4" secondAttribute="centerX" id="DQW-Gk-YxW"/>
                             <constraint firstItem="4e9-Eb-DXY" firstAttribute="centerX" secondItem="GIa-l6-hT4" secondAttribute="centerX" id="EUu-lA-Yqf"/>
@@ -279,6 +296,7 @@
                             <constraint firstItem="d8Z-hZ-v1k" firstAttribute="centerX" secondItem="GIa-l6-hT4" secondAttribute="centerX" id="Hgu-Ua-Vxf"/>
                             <constraint firstItem="d8Z-hZ-v1k" firstAttribute="top" secondItem="QVf-nZ-sS5" secondAttribute="bottom" constant="30" id="Ik2-WS-3T1"/>
                             <constraint firstItem="QVf-nZ-sS5" firstAttribute="top" secondItem="SWT-OS-IPA" secondAttribute="top" constant="150" id="S0x-SA-CuJ"/>
+                            <constraint firstItem="bhL-K2-uK9" firstAttribute="leading" secondItem="SWT-OS-IPA" secondAttribute="leading" constant="20" id="SM3-yg-6ea"/>
                             <constraint firstItem="dgb-Zh-pPP" firstAttribute="top" secondItem="FMi-bk-m6i" secondAttribute="bottom" constant="10" id="VL8-Xr-2Ty"/>
                             <constraint firstItem="E57-WE-O0q" firstAttribute="centerX" secondItem="GIa-l6-hT4" secondAttribute="centerX" id="iGo-FP-Reu"/>
                             <constraint firstItem="4e9-Eb-DXY" firstAttribute="top" secondItem="bWm-S2-HZz" secondAttribute="bottom" constant="5" id="qvM-GM-lDb"/>

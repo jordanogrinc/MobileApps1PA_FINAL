@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
 
 class AddPageViewController: UIViewController {
     //testupdate
@@ -61,6 +62,10 @@ class AddPageViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    @IBAction func close(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
 }
 
 
